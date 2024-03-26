@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+    color:hsl(292, 42%, 14%) ;
+}
+
+.background {
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.faq-header {
+    display: flex;
+}
+
+.faq-header h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    
+}
+
+.faq-box {
+
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    max-width: 75%;
+    width: 650px;
+    box-shadow: 1px 3px 20px hsl(293, 17%, 30%);
+}
+
+
+img {
+    width: 1.7rem;
+    
+}
+
+
+.question {
+    color: hsl(292, 49%, 21%);
+    font-weight: 700;
+    font-size: 0.7rem;
+    /* margin: 1rem 0; */
+    word-wrap: normal;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.plus-icon {
+    cursor: pointer;
+
+}
+
+.minus-icon {
+    cursor: pointer;
+
+}
+
+.question h2 {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.section p {
+    line-height: 1.5rem;
+}
+
+.answer {
+   color: hsl(292, 16%, 49%);
+   padding: 0 0 1rem 0;
+   height: 75px;
+   overflow: hidden;
+   transform: translateY(0);
+   transition: all 0.5s ease;
+   
+
+   
+}
+
+.hidden {
+    height: 0;
+    overflow: hidden;
+    /* left: 0; */
+    width: 100%;
+    transition: all 0.5s ease;
+    
+}
+
+.section {
+    border-bottom: 1px solid #e2dfdf;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+    
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
